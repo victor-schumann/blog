@@ -187,13 +187,13 @@
     setTimeout(() => {
       htmlClass.remove('not-ready');
     }, 10);
-
+  
     
     const btnMenu = document.querySelector('.btn-menu');
     btnMenu.addEventListener('click', () => {
       htmlClass.toggle('open');
     });
-
+  
     
     const metaTheme = document.querySelector('meta[name="theme-color"]');
     const lightBg = '#faf8f1'.replace(/"/g, '');
@@ -202,21 +202,22 @@
       htmlClass[isDark ? 'add' : 'remove']('dark');
       localStorage.setItem('dark', isDark);
     };
-
+  
     
     const darkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-    if (htmlClass.contains('dark')) {
+    const darkVal = localStorage.getItem('dark');
+    if (darkVal === null) {
+      
       setDark(true);
     } else {
-      const darkVal = localStorage.getItem('dark');
-      setDark(darkVal ? darkVal === 'true' : darkScheme.matches);
+      setDark(darkVal === 'true');
     }
-
+  
     
     darkScheme.addEventListener('change', (event) => {
       setDark(event.matches);
     });
-
+  
     
     const btnDark = document.querySelector('.btn-dark');
     btnDark.addEventListener('click', () => {
