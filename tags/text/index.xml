@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Text on victorschumann</title>
-    <link>https://victor-schumann.github.io/hugo-blog-prod/tags/text/</link>
-    <description>Recent content in Text on victorschumann</description>
+    <title>Text on Victor Schumann</title>
+    <link>https://victorschumann.com/tags/text/</link>
+    <description>Recent content in Text on Victor Schumann</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <copyright>© 2024, victorschumann.com</copyright>
+    <copyright>© 2024, victorschumann</copyright>
     <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://victor-schumann.github.io/hugo-blog-prod/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://victorschumann.com/tags/text/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Placeholder Text</title>
-      <link>https://victor-schumann.github.io/hugo-blog-prod/post/placeholder-text/</link>
+      <link>https://victorschumann.com/post/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://victor-schumann.github.io/hugo-blog-prod/post/placeholder-text/</guid>
+      <guid>https://victorschumann.com/post/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
     </item>
   </channel>
